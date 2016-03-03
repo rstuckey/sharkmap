@@ -169,8 +169,8 @@ geolocator = GoogleV3()
 # geolocator = Nominatim()
 
 # Read in xls as a dataframe
-df = pd.read_excel('./GSAF5a.xls',encoding='utf-8')
-# df = pd.read_excel('./GSAF5a.csv',encoding='utf-8')
+df = pd.read_excel('./GSAF5.xls',encoding='utf-8')
+# df = pd.read_excel('./GSAF5.csv',encoding='utf-8')
 
 # Clean our columns
 df['Activity'] = df['Activity'].str.lower()
