@@ -1,0 +1,3 @@
+// Mapbox settings
+var ACCESSTOKEN = 'my.accesstoken';
+var TILELAYER = 'my.tilelayer';
